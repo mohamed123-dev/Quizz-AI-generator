@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Guide Local</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Quiz IA</h1>
+        <div id="quiz-section">
+            <div style="display:flex; gap:10px; margin-bottom:12px; align-items:center;">
+                <label for="pdf-select">Choisir un document :</label>
+                <select id="pdf-select"></select>
+                <button id="refresh-pdf-list-btn" type="button">Rafraîchir la liste</button>
+                <button id="start-quiz-btn" type="button">Démarrer le Quiz</button>
+                <button id="refresh-quiz-btn" type="button">Mettre à jour le quiz</button>
+            </div>
+            <div id="quiz-container" style="display:none;"></div>
+            <div id="quiz-result" style="display:none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

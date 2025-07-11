@@ -1,0 +1,13 @@
+flask
+flask-cors
+langchain
+langchain-community
+langchain-huggingface
+groq
+python-dotenv
+PyPDF2
+chromadb
+docx2txt
+fastapi
+uvicorn
+lxml 
