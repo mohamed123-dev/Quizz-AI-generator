@@ -3,7 +3,7 @@
 A web application that generates AI-powered quizzes. The project consists of a FastAPI backend and a simple HTML/JavaScript/CSS frontend. Data is managed locally, with support for custom datasets.
 
 ## Features
--Generate quizzes dynamically using LLaMA via Groq\n
+-Generate quizzes dynamically using LLaMA via Groq
 -Fast and lightweight backend with FastAPI
 -Simple, user-friendly frontend interface
 -Local data storage and indexing with Chroma
